@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  
+
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Space tourism website</title>
+  </head>
+
+  <body
+    class="sm:bg-[url('/starter-code/assets/destination/background-destination-mobile.jpg')] md:bg-[url('/starter-code/assets/destination/background-destination-tablet.jpg')] lg:bg-[url('/starter-code/assets/destination/background-destination-desktop.jpg')] bg-cover bg-no-repeat bg-center"
+  >
+    <div id="parent-container" class="min-h-screen">
+      <nav class="">
+        <div class="flex justify-between">
+          <div class="ml-5 pt-10">
+            <a href="index.html"><img src="./assets/shared/logo.svg" /></a>
+          </div>
+
+          <div class="flex justify-end">
+            <ul
+              class="sm:hidden text-white md:flex justify-between bg-blue-950 bg-opacity-30 py-10 pl-10"
+            >
+              <li class="padding-right-2rem">
+                <a href="index.html"
+                  ><span class="padding-right-05rem">00</span>Home</a
+                >
+              </li>
+              <li class="padding-right-2rem">
+                <a href="destination-europa.html"
+                  ><span class="padding-right-05rem">01</span>Destinations</a
+                >
+              </li>
+              <li class="padding-right-2rem">
+                <a href="crew.html"
+                  ><span class="padding-right-05rem">02</span>Crew</a
+                >
+              </li>
+              <li class="padding-right-2rem">
+                <a href="technology-vehicle.html"><span class="padding-right-05rem">03</span>Technology</a>
+                
+              </li>
+            </ul>
+
+            <img
+              id="hamburger-img"
+              class="md:hidden pt-10"
+              src="./assets/shared//icon-hamburger.svg"
+            />
+          </div>
+        </div>
+
+        <div
+          id="sidebar-menu"
+          class="fixed z-50 hidden text-yellow-400 right-0 bottom-0 top-0 bg-gray-600 transition duration-500"
+        >
+          <div id="close-img">
+            <img src="./assets/shared/icon-close.svg" class="flex mt-10 ml-5" />
+          </div>
+
+          <ul class="mt-20">
+            <li
+              class="padding-top-2rem text-lg padding-left-1rem padding-right-3rem"
+            >
+              <a href="index.html">Home</a>
+            </li>
+            <li
+              class="padding-top-2rem text-lg padding-left-1rem padding-right-3rem"
+            >
+              <a href="destination-moon.html">Destinations</a>
+            </li>
+            <li
+              class="padding-top-2rem text-lg padding-left-1rem padding-right-3rem"
+            >
+            <a href="crew.html">Crew</a>
+              
+            </li>
+            <li
+              class="padding-top-2rem text-lg padding-left-1rem padding-right-3rem"
+            >
+            <a href="technology-vehicle.html">Technology</a>
+              
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="sm:flex sm:flex-col sm:items-center mt-16 pb-24">
+        <h2 class="text-white text-lg md:self-start ml-6"><span class="pr-4">01</span>PICK YOUR DESTINATION</h2>
+<div class="sm:mt-10 lg:flex lg:flex-row lg:items-center lg:mt-0">
+        <div class="md:m-auto  lg:flex lg:items-center lg:m-auto lg:basis-3/5">
+          <img class="mt-14 sm:m-auto md:m-auto sm:w-2/5 md:w-2/5 lg:w-7/12 lg:pt-32" id="titan-img">
+        </div>
+        
+        <div class="sm:flex sm:items-center sm:flex-col sm:text-center  
+        lg:basis-2/5 lg:items-start">
+        <ul class="sm:flex sm:gap-6 text-white mt-10 text-lg">
+          <li><a href="destination-moon.html">MOON</a></li>
+          <li><a href="destination-mars.html">MARS</a></li>
+          <li><a href="destination-europa.html">EUROPA</a></li>
+          <li><a id="titan-tab" href="destination-titan.html">TITAN</a></li>
+        </ul>
+
+        <h1 id="destination-name" class="sm:text-white mt-10 text-7xl lg:self-start">TITAN</h1>
+
+        <p id="titan-description" class="sm:text-white sm:text-center sm:px-20 mt-10 
+        lg:self-start lg:text-start lg:pl-0 lg:pr-14">
+         
+        </p>
+
+        <p class="sm:border-b border-gray-500 sm:w-4/5 sm:mt-10 lg:m-auto lg:mt-10"></p>
+
+        <div class="sm:flex flex-col gap-12 mt-10 text-white lg:justify-start lg:flex-row">
+          <div class="sm:flex flex-col gap-4 text-center">
+            <p class="text-lg">AVG. DISTANCE</p>
+            <p id="avg-distance" class="text-xl"></p>
+          </div>
+
+          <div class="sm:flex flex-col gap-4 text-center">
+            <p class="text-lg">EST. TRAVEL TIME</p>
+            <p id="travel-time" class="text-xl pl-0"></p>
+          </div>
+        </div>
+      
+      </div>
+    </div>
+        
+
+      </div>
+      
+
+
+
+
+      <script src="index.js"></script>
+    <script src="destination-titan.js"></script>
+
+   
+  </body>
+</html>

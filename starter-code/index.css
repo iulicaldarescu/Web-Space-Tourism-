@@ -1,0 +1,54 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.mobile-bg-image {
+    background-image: url('./assets/home/background-home-mobile.jpg');
+}
+
+.padding-right-05rem {
+    padding-right: 0.5rem;
+}
+
+.padding-right-2rem {
+    padding-right: 2rem;
+}
+
+.padding-top-2rem{
+    padding-top: 2rem;
+}
+
+.padding-left-1rem {
+    padding-left: 1rem;
+}
+
+.padding-right-3rem {
+    padding-right: 3rem;
+}
+
+.width-0 {
+    width: 0px;
+}
+
+
+
+.width-200 {
+    width: 200px;
+}
+
+
+.selected-tab {
+    border-bottom:1px solid;
+   
+}
+
+.white-bg {
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+}
+
+
+
+
+
